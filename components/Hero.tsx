@@ -100,7 +100,13 @@ export default function Hero() {
               >
                 View projects
               </a>
-
+<a
+  href="/resume.pdf"
+  download
+  className="rounded-md border border-line px-5 py-2.5 text-sm font-medium text-text transition-colors hover:border-amber hover:text-amber"
+>
+  Download Resume
+</a>
               <a
                 href="#contact"
                 className="rounded-md border border-line px-5 py-2.5 text-sm font-medium text-text hover:border-teal hover:text-teal transition-colors"
